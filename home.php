@@ -24,7 +24,7 @@ get_header();
 <!-- On affiche le zone projet -->
     <section class="project-section">
         <div class='title'>
-            <h2>MES PROJETS<h2>
+            <h2 id="frfr">MES PROJETS<h2>
         </div>
         <p>Chaque projet que j'ai entrepris a été motivé avec le désir de relever des défis techniques et de trouver des solutions créatives qui répondent aux besoins de l'utilisateur. Je vous invite à parcourir mes projets afin de découvrir la qualité et la variété de mon travail. </p>
         <div class="project">

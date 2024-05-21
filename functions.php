@@ -7,7 +7,7 @@ function theme_enqueue_styles()
     wp_enqueue_style('front-page', get_template_directory_uri() . '/css/front-page.css');
     wp_enqueue_style('responsive', get_template_directory_uri() . '/css/responsive.css');
     wp_enqueue_style('single-page', get_template_directory_uri() . '/css/single-page.css');
-    wp_enqueue_style('single-page', get_template_directory_uri() . '/css/animation.css');
+    wp_enqueue_style('animation', get_template_directory_uri() . '/css/animation.css');
     wp_enqueue_script('js_script', get_stylesheet_directory_uri() . '/js/animation.js');
     wp_enqueue_script('burger-menu', get_template_directory_uri() . '/js/burger-menu.js');
 
