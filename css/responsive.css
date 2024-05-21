@@ -1,0 +1,112 @@
+    /**** respon *****/
+
+    /* Masquer burger menu pour les écrans supérieur à 900px */
+    @media screen and (min-width: 900px) {
+        nav {
+            display: block;
+        }
+        .burger-open {
+            display: none;
+        }
+    }
+    
+    /* Masquer le menu principal par défaut pour les écrans inférieur à 900px */
+    @media screen and (max-width: 900px) {
+        .burger-open {
+            display: none;
+        }
+    }
+    
+    
+    
+    /******** vague **********/
+    
+    @media(max-width:850px) {
+        .wave-container::before {    
+          height: 60.5px
+        }  
+      }
+    
+    
+    
+      @media (max-width: 800px) {
+    
+        /* Header */
+        .logo img {
+            max-width: 100px;
+        }
+    
+        header{
+            flex-direction: column;
+        }
+        nav {
+            display: none;
+            width: 100%;
+            z-index: 300;
+            background-color: #FFF2D7;
+            margin: 0;
+            justify-content: center;
+            padding: 150px 0;
+        }
+        nav ul {
+            flex-direction: column;
+            padding-left: 0;
+        }
+        nav ul.menu li a{
+            color: #76528B;
+            font-size: 44px;
+        }
+    
+        .burger-open{
+            display: block;
+        }
+    
+        .logo {
+            margin: 0px 20px;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 50px;
+        }
+    
+        /****** hero *******/
+    
+        .hero {
+            padding-bottom: 30px;
+        }
+
+        .hero img {
+            width: 300px;
+            height: 300px;
+            border-radius: 150px;
+        }
+    
+        h1 {
+            padding-top: 30px;
+            font-size: 30px;
+            left: 20px;
+        }
+    
+        h2 {
+            font-size: 20px;
+            letter-spacing: 20px;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    
+        /******** site section *******/
+    
+        .project-section {
+            margin-top: 150px;
+        }
+        
+        .site-section {
+            width: 80%;
+        }
+    
+        .card {
+            width: 90%;
+        }
+    }

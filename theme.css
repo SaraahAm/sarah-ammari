@@ -1,0 +1,147 @@
+/*********** Header ***********/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #76528B;
+    padding-top: 30px;
+
+}
+
+nav {
+    margin-right: 100px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+body {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+html {
+    margin-top: 0px !important;
+}
+
+/*********** Menu ***********/
+
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+}
+
+.menu a {
+    color: #FFF2D7;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu a:hover {
+    font-weight: 700;
+}
+
+/*********** Footer ***********/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px #FFA351 solid;
+    width: 100%;
+}
+
+footer .menu a {
+    color: black;
+    font-family: 'Syne', sans-serif;
+}
+
+
+
+
+/***** animation ******/ 
+
+/**** Fade in title ****/
+
+.titleFade {
+    display: inline-block;
+    margin-right: 15px;
+    opacity: 0;
+    transform: translateY(100%);
+
+    transition: opacity 0.2s ease-in, transform 0.5s ease-in;
+
+    &.visibility {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.image-ronde {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    animation: floatAnimation 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes floatAnimation {
+        0% {
+            transform: translate(-50%, -40%);
+        }
+
+        50% {
+            transform: translate(-50%, -43%);
+        }
+
+        100% {
+            transform: translate(-53%, -40%);
+        }
+
+}
+
+/**** FadeIn - section ****/
+
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+ @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(200px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+
