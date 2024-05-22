@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
       });
     });
-    const sections = document.querySelectorAll('.hero, .presentation-section, .project-section, .form-section');
+    const sections = document.querySelectorAll('.hero, .presentation-section, .project-section, .form-section, .form-section-single, .single-site');
     sections.forEach((section) => {
       sectionObserver.observe(section);
     });

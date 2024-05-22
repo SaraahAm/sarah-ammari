@@ -1,0 +1,53 @@
+.single-site h2{
+    margin-top: -150px;
+}
+
+.online-project {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.access-section {
+    width: 80%;
+}
+
+.site-access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFA351;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.site-access-photo {
+    width: 50%;
+}
+
+.site-access-photo img {
+    border-radius: 40px;
+}
+
+.meta-site {
+    width: 50%;
+    background-color: #FFF2D7;
+    border-radius: 40px;
+}
+
+.title-site {
+    display: flex;
+    justify-content: center;
+    color: #76528B;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-section-single {
+    margin-top: 300px;
+
+}

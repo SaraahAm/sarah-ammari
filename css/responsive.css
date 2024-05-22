@@ -1,7 +1,7 @@
     /**** respon *****/
 
     /* Masquer burger menu pour les écrans supérieur à 900px */
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 800px) {
         nav {
             display: block;
         }
@@ -11,7 +11,7 @@
     }
     
     /* Masquer le menu principal par défaut pour les écrans inférieur à 900px */
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 800px) {
         .burger-open {
             display: none;
         }
@@ -29,7 +29,7 @@
     
     
     
-      @media (max-width: 800px) {
+    @media (max-width: 800px) {
     
         /* Header */
         .logo img {
@@ -43,7 +43,7 @@
             display: none;
             width: 100%;
             z-index: 300;
-            background-color: #FFF2D7;
+            background-color: #76528B;
             margin: 0;
             justify-content: center;
             padding: 150px 0;
@@ -53,7 +53,7 @@
             padding-left: 0;
         }
         nav ul.menu li a{
-            color: #76528B;
+            color:  #FFF2D7;
             font-size: 44px;
         }
     
@@ -110,3 +110,25 @@
             width: 90%;
         }
     }
+
+
+/********$ Single page **********/
+
+@media (max-width: 800px) {
+
+    .single-site {
+        margin-top: 150px;
+    }
+
+    .site-access {
+        display: none;
+    }
+
+   .site-access-photo {
+        width: 80%;
+   }
+
+   .meta-site {
+        width: 80%;
+   }
+}

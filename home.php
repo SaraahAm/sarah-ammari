@@ -15,7 +15,7 @@ get_header();
 
 <!-- On affiche la présentation -->
     <section class="presentation-section">
-        <h2>PRÉSENTATION</h2>
+        <h2 id="ancre-presentation">PRÉSENTATION</h2>
         <p> Bienvenue dans mon portfolio, un espace où la curiosité rencontre la créativité. </p>
         <p>En tant qu'étudiant en développement web, je suis déterminé à repousser les limites de mes compétences et à créer des projets qui captivent et inspirent. Vous y découvrirez une sélection de mes projets les plus récents, chacun représentant une étape de mon parcours d'apprentissage et une opportunité d'explorer de nouvelles technologies et concepts.</p>
     </section>
@@ -24,7 +24,7 @@ get_header();
 <!-- On affiche le zone projet -->
     <section class="project-section">
         <div class='title'>
-            <h2 id="frfr">MES PROJETS<h2>
+            <h2 id="ancre-projet">MES PROJETS<h2>
         </div>
         <p>Chaque projet que j'ai entrepris a été motivé avec le désir de relever des défis techniques et de trouver des solutions créatives qui répondent aux besoins de l'utilisateur. Je vous invite à parcourir mes projets afin de découvrir la qualité et la variété de mon travail. </p>
         <div class="project">
@@ -59,7 +59,7 @@ get_header();
     <!-- On affiche le form -->
     <section class="form-section">
             <div class='title'>
-                <h2 class="test">   CONTACT<h2>
+                <h2 id="ancre-contact" class="test">   CONTACT<h2>
             </div>
             <div class="contact-p">
                 <p>Mon profil vous intéresse et vous souhaitez prendre contact avec moi, contactez moi !</p>
