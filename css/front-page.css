@@ -82,7 +82,7 @@ p {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 .filter-section {
@@ -166,6 +166,11 @@ p {
 
 
 /********** form section **********/
+
+.form-section {
+    margin-top: 250px;
+    background-color: #FFF2D7;
+}
 
 .form-content {
     font-size: 12px;

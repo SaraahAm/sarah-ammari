@@ -109,7 +109,15 @@
         .card {
             width: 90%;
         }
+
+        /*form section */
+
+        .project {
+            margin-bottom: 0;
+        }
     }
+
+
 
 
 /********$ Single page **********/
@@ -117,18 +125,28 @@
 @media (max-width: 800px) {
 
     .single-site {
+        margin-top: 100px;
+    }
+
+    .access-section {
+        width: 70%;
+    }
+
+    .single-site {
         margin-top: 150px;
     }
 
     .site-access {
-        display: none;
+        flex-wrap: wrap;
     }
 
    .site-access-photo {
-        width: 80%;
+        width: 90%;
    }
 
    .meta-site {
         width: 80%;
    }
+
+
 }

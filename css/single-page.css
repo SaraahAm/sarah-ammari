@@ -6,21 +6,41 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .access-section {
     width: 80%;
 }
 
+.card-single {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    cursor: pointer;
+}
+
+.card-single img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 .site-access {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFA351;
     gap: 20px;
     padding: 20px;
     border-radius: 20px;
     margin-top: 50px;
+    background-color: #FFA351;
+    flex-direction: column;
+    
 }
 
 .site-access-photo {
@@ -32,9 +52,9 @@
 }
 
 .meta-site {
-    width: 50%;
     background-color: #FFF2D7;
     border-radius: 40px;
+    width: 80%;
 }
 
 .title-site {
@@ -47,7 +67,36 @@
     font-style: normal;
 }
 
-.form-section-single {
-    margin-top: 300px;
+.description-site {
+    margin: 20px 0;
+}
 
+.description-site p {
+    text-align: justify;
+    color: #76528B;
+    font-size: 18px;
+    font-family: 'Syne', sans-serif;
+    width: 90%;
+    line-height: 30px;
+}
+
+.description-site li {
+    margin: auto;
+    text-align: justify;
+    color: #76528B;
+    font-size: 18px;
+    font-family: 'Syne', sans-serif;
+    width: 90%;
+    line-height: 30px;
+}
+
+/**** form section ****/
+
+.form-section-single {
+    margin-top: 250px;
+    background-color: #FFF2D7;
+}
+
+#wave {
+    margin-bottom: -120px;
 }
