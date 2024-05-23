@@ -53,7 +53,7 @@
             padding-left: 0;
         }
         nav ul.menu li a{
-            color:  #FFF2D7;
+            color:  #FCE181;
             font-size: 44px;
         }
     
@@ -82,9 +82,9 @@
         }
     
         h1 {
-            padding-top: 30px;
             font-size: 30px;
             left: 20px;
+            margin-top: -180px;
         }
     
         h2 {

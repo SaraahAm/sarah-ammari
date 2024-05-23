@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Syne:wght@400..800&display=swap');
+
 /*********** Header ***********/
 
 header {
@@ -5,7 +7,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #76528B;
+    background-color: #F4976C;
     padding-top: 30px;
 
 }
@@ -55,10 +57,10 @@ html {
 }
 
 .menu a {
-    color: #FFF2D7;
+    color: #FCE181;
     text-decoration: none;
     font-family: 'Syne', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 

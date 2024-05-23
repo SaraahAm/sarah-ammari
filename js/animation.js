@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
   function animationTitre(entry) {
   
-    const title = entry.target.querySelector('h1, h2, h3');
+    const title = entry.target.querySelector(' h2, h3');
     if (title && title.textContent) {
       let mots = title.textContent.split(' ');
       title.textContent = '';

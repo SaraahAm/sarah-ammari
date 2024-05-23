@@ -38,7 +38,7 @@
     padding: 20px;
     border-radius: 20px;
     margin-top: 50px;
-    background-color: #FFA351;
+    background-color: #F76C6C;
     flex-direction: column;
     
 }
@@ -52,7 +52,7 @@
 }
 
 .meta-site {
-    background-color: #FFF2D7;
+    background-color: white;
     border-radius: 40px;
     width: 80%;
 }
@@ -60,7 +60,7 @@
 .title-site {
     display: flex;
     justify-content: center;
-    color: #76528B;
+    color: #FCE181;
     text-decoration: none;
     font-family: 'Syne', sans-serif;
     font-weight: 400;
@@ -73,7 +73,7 @@
 
 .description-site p {
     text-align: justify;
-    color: #76528B;
+    color: #373737;
     font-size: 18px;
     font-family: 'Syne', sans-serif;
     width: 90%;
@@ -83,18 +83,22 @@
 .description-site li {
     margin: auto;
     text-align: justify;
-    color: #76528B;
+    color: #373737;
     font-size: 18px;
     font-family: 'Syne', sans-serif;
     width: 90%;
     line-height: 30px;
 }
 
+strong {
+    font-weight: 600;
+}
+
 /**** form section ****/
 
 .form-section-single {
     margin-top: 250px;
-    background-color: #FFF2D7;
+    background-color: #FCE181;
 }
 
 #wave {

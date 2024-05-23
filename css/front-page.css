@@ -3,7 +3,7 @@
 /***** hero *****/
 
 .hero {
-    background-color: #76528B;
+    background-color: #F4976C;
     width: 100%;
     display: flex;
     justify-content: space-around;  
@@ -13,12 +13,12 @@
 
 
 h1 {
-    color: #FFA351;
-    letter-spacing: 20px;
+    color: #FCE181;
     font-size: 40px;
-    font-family: 'Syne', sans-serif;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
     position: absolute;
-    top: 500px;
+    top: 650px;
     left: 150px;
 
 }
@@ -36,7 +36,7 @@ h1 {
 /***** présentation *****/
 
 .presentation-section {
-    background-color: #76528B;
+    background-color : #F4976C;
 }
 
 h2 {
@@ -46,17 +46,18 @@ h2 {
     font-size: 30px;
     letter-spacing: 30px;
     font-family: 'Syne', sans-serif;
-}
+} 
 
 .presentation-section h2 {
     padding: 50px;
+    color: #FCE181;
 }
 
 p {
     margin: auto;
     margin-top: 30px;
     text-align: center;
-    color: #FFF2D7;
+    color: #373737;
     font-size: 18px;
     font-family: 'Syne', sans-serif;
     width: 60%;
@@ -93,29 +94,15 @@ p {
     width: 70%;
 }
 
-.list-filter {
-    background-color: #FFA351;
-    border-radius: 20px;
-    border: #FFA351 1px solid;
-}
-
-.title-filter {
-    color: black;
-}
-
-.filter {
-    color: #76528B;
-}
-
 .site-card {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: #FFA351;
+    background-color: #F76C6C;
     border-radius: 20px;
-    border: 2px double #FFA351 ;
+    border: 2px double #F76C6C ;
     padding: 20px;
 }
 
@@ -155,7 +142,7 @@ p {
     font-size: 18px;
     font-weight: 700;
     font-family: 'Syne', sans-serif;
-    color: #76528B;
+    color: #FFA351;
 }
 
 .info-card {
@@ -169,7 +156,7 @@ p {
 
 .form-section {
     margin-top: 250px;
-    background-color: #FFF2D7;
+    background-color: #FCE181;
 }
 
 .form-content {
@@ -197,7 +184,9 @@ p {
     padding: 10px 60px 10px 60px;
     cursor: pointer;
     margin-top: 15px;
-    color: #FFF2D7;
+    color: white;
+    font-family: "Syne", sans-serif;
+
 }
 
 .contact-form p {
@@ -205,10 +194,16 @@ p {
 }
 
 .contact-p p{
-    color: #76528B;
+    color: #373737;
     padding: 20px;
 }
 
 .contact-form {
     padding-bottom: 50px;
 }
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #FCE181;
+}
+
+/*** test **/ 
